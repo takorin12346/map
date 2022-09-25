@@ -120,15 +120,16 @@ addEventListener('load', function() {
 		for (var x=0; x<map[y].length; x++) {
 			if ( map[y][x] === 0 ) ctx.drawImage( mapchip, 0, 0, 32, 32, 32*x, 32*y, 32, 32 );
 			if ( map[y][x] === 1 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 3 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 4 ) ctx.drawImage( mapchip, 0, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 5 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 6 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 7 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 8 ) ctx.drawImage( mapchip, 0, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 9 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 10 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
-			if ( map[y][x] === 11 ) ctx.drawImage( mapchip, 32, 0, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 2 ) ctx.drawImage( mapchip, 64, 0, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 3 ) ctx.drawImage( mapchip, 96, 0, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 4 ) ctx.drawImage( mapchip, 128, 0, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 5 ) ctx.drawImage( mapchip, 160, 0, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 6 ) ctx.drawImage( mapchip, 0, 32, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 7 ) ctx.drawImage( mapchip, 32, 32, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 8 ) ctx.drawImage( mapchip, 64, 32, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 9 ) ctx.drawImage( mapchip, 96, 32, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 10 ) ctx.drawImage( mapchip, 128, 32, 32, 32, 32*x, 32*y, 32, 32 );
+			if ( map[y][x] === 11 ) ctx.drawImage( mapchip, 160, 32, 32, 32, 32*x, 32*y, 32, 32 );
 			
 			
 		}
