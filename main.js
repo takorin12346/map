@@ -8,7 +8,7 @@ var ctx = canvas.getContext( '2d' );
  
 //マップチップのImageオブジェクトを作る
 var mapchip = new Image();
-mapchip.src = 'img/map.png';
+mapchip.src = 'img/tile.png';
  
 //マップの作成（さくせい）
 var map = [
