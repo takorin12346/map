@@ -1,7 +1,7 @@
 //canvasの設定（せってい）
 var canvas = document.getElementById( 'canvas' );
-canvas.width = 640;		//canvasの横幅（よこはば）
-canvas.height = 640;	//canvasの縦幅（たてはば）
+canvas.width = 3200;		//canvasの横幅（よこはば）
+canvas.height = 3200;	//canvasの縦幅（たてはば）
  
 //コンテキストを取得（しゅとく）
 var ctx = canvas.getContext( '2d' );
